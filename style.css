@@ -10,12 +10,14 @@
 
 #input {
   margin: auto;
+  text-align: center;
 }
 
 #name {
   font-size: 3em;
   color: saddlebrown;
   margin: 10px 0px;
+  text-align: center;
 }
 
 #button-in {
