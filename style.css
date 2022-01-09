@@ -8,6 +8,10 @@
   font-size: 1.5em;
 }
 
+#input {
+  margin: auto;
+}
+
 #name {
   font-size: 3em;
   color: saddlebrown;
