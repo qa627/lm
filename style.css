@@ -1,9 +1,10 @@
 /* 001 */
 #index {
-  margin: 4em;
+  margin: auto;
   font-size: 1.5em;
 }
 #article {
+  text-aline: center;
   font-size: 1.5em;
 }
 
