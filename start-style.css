@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+    color: rgb(129, 106, 106); 
+}
+img {
+    display: block;
+    margin:auto;
+}a:link {
+    color: rgb(0, 158, 250);
+    text-align: center;
+}
+a:visited {
+    color: rgb(90, 52, 116);
+}
+a:hover {
+    text-decoration: none;
+}body {
+    background-image: url("bk.png"); /*darkgray*/;
+}h3{
+    text-align: center;
+    color: rgb(0, 0, 0); 
+}p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
