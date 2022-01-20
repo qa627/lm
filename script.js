@@ -1,5 +1,5 @@
 function kick(){
-  let text = document.getElementById("inter").value;
+  var text = document.getElementById("inter").value;
   if (text == "歐西里斯") {
     window.alert("答對了");
     window.location.href="002.html";
