@@ -2,6 +2,7 @@
 body{
     margin: auto;
 }
+
 h1{
     text-align: center;
     color: red;
@@ -13,11 +14,11 @@ p{
    margin: 3% auto 5% 10%  ;
 }
 
-
 img{
     float:right;
     margin: 2.5% 10% 5% 20%  ;
 }
+
 
 /* 001 */
 #index {
