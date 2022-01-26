@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>勇者救出了公主，並回到了城堡，但他不知道密碼，你可以幫幫他嗎？</title>
+    </head>
+    <body>
+        <img src="vs_use/4.jpg" style="height: 15cm;">
+        <form onsubmit="judge(this.ans.value)">
+            <input type="text" id="ans" placeholder="輸入之前的所有答案">
+            <input type="submit" value="確定">
+        </form>
+        <script>
+        alert("逼逼，勇者阿，歡迎回到城堡，請輸入密碼以驗證你剛剛有沒有認真冒險八ㄎㄎ")
+        function judge(ans)
+        {
+            event.preventDefault();
+            if(ans=="左右左")
+            {
+                alert("恭喜通關")
+                i=0;
+            }
+            else
+            {
+                alert("逼逼，答錯了呦(笑，看來你需要再好好的回想一遍呢(茶\n"+"『不會吧』崩潰的勇者感到了一股來自東方的神祕力量，一陣暈眩感襲來，勇者發現他又回到了原點")
+                location.href="1.html";
+            }
+        }
+        </script>
+    </body>
+</html>
